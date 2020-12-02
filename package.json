@@ -9,6 +9,10 @@
   "author": "chows23",
   "license": "ISC",
   "dependencies": {
-    "chalk": "^4.1.0"
+    "chalk": "^4.1.0",
+    "log-update": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2"
   }
 }

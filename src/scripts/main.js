@@ -11,4 +11,3 @@ navColor.addEventListener('click', function(event) {
 footerColor.addEventListener('click', function(event) {
   event.target.style.backgroundColor = color.value;
 });
-
