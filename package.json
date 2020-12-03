@@ -14,5 +14,13 @@
   },
   "devDependencies": {
     "gulp": "^4.0.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chows23/personal-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Chows23/personal-project/issues"
+  },
+  "homepage": "https://github.com/Chows23/personal-project#readme"
 }
