@@ -13,7 +13,7 @@ function htmlTask() {
 };
 
 function styleTask() {
-  return src('src/styles/*.css')
+  return src(['src/styles/normalize.css', 'src/styles/style.css'])
     .pipe(concat('all.css'))
     .pipe(sourcemaps.init())
     .pipe(cssnano())
@@ -36,6 +36,6 @@ function imageTask() {
     .pipe(dest('dist/img'))
 }
 
-exports.images = imageTask;
+
 
 exports.default = series(htmlTask, imageTask, styleTask, scriptTask);
